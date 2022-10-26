@@ -8,7 +8,7 @@
 #
 # Here, `dockerhost` is the IP address or FQDN of a host running the Docker daemon
 # which acts as an APT proxy server.
-FROM    ubuntu
+FROM    ubuntu:22.04
 
 VOLUME  ["/var/cache/apt-cacher-ng"]
 
